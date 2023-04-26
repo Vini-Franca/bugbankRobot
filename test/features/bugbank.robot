@@ -1,7 +1,7 @@
 *** Settings ***
 Resource         ../steps/bugbankSteps.robot
 Resource         ../resources/ServicesKeyword.robot
-Resource         ../resources/BDDpt-br.robot
+Resource         ../resources/BDD.robot
 Test Teardown    Voltar a home
 Suite Teardown   Close Browser
 
